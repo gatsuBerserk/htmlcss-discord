@@ -12,13 +12,28 @@
 
 .fl-left{
     float: left;
+} 
+
+.relative{
+    position:relative
+}
+
+.absolute{
+    position: absolute;
+}
+
+.transform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header{
     width: 100%;
     height: 100px;
     line-height: 100px;
-    background-color: blue;
+    background-color: rgb(37, 94, 233);
 }
 
 .wrapper{
@@ -28,13 +43,17 @@ header{
     margin: 0 auto;
 
 }
-.wrapper #logo, 
-.wrapper .input{
+
+.input{
     width: 150px;
     height: 40px;
     border:none;
     border-radius: 20px;
 
+}
+
+body{
+    font-family: 'Whitney', sans-serif;
 }
 
 .main-nav{
@@ -59,3 +78,32 @@ a{
     text-decoration: none;
     list-style: none;
 }
+
+.jumbo{
+    width: 100%;
+    height: 600px;
+}
+
+.jumbo .jumbo-wall img{ 
+    width: 100%;
+    height: 600px;
+}
+
+.jumbo-text{
+    line-height: 10px;
+    color: white;
+    text-align: center;
+}
+
+.jumbo-text #reclam{
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+.jumbo-text h1{
+    line-height: 150px;
+    font-size: 4rem;
+}
+
+
+
